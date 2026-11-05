@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "kamradsmeshnyavy.monitor",
+  "name": "DOT-MATRIX Display",
+  "version": "1.0.0",
+  "author": "KamradSmeshnyavy",
+  "license": "MIT",
+  "description": "Display panel: brightness, night light and monitor settings — the stock Omarchy bar widget in the DOT-MATRIX style",
+  "homepage": "https://github.com/KamradSmeshnyavy/omarchy-dotmatrix-monitor",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "DOT-MATRIX Display",
+    "description": "Brightness slider and laptop display controls",
+    "category": "System",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.monitor"
+  }
+}
